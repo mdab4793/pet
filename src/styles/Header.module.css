@@ -1,0 +1,63 @@
+
+
+
+
+header{
+    height: 75px;
+    background-color: rgb(184, 153, 213);
+    border: 1px solid #253342;
+    position: fixed;
+    width:100%;
+    z-index: 9999;
+    top:0;
+    left: 0;
+    
+
+}
+
+h1{
+    color:black;
+    line-height:center;
+    float: left;
+   
+   
+}
+
+.menu{
+   float:right;  
+   
+    
+}
+
+.menu li{
+    float: left;
+    list-style: none;
+}
+
+.menu a{
+    line-height: 50px;
+    color:rgb(107, 49, 49);
+    padding: 0 15px;
+    display: block;
+   
+}
+
+.wrapper{
+    width:1220px; 
+    margin: 0 auto;
+    
+}
+
+.clearfix{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+
+ 
