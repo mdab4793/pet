@@ -1,17 +1,8 @@
 
-import { useState } from "react";
 import styles from "./styles/LoginForm.module.css";
 import Header from "./Layouts/Header";
-const LoginForm = () => {
-
-
-    
-    
-
-
-    return(
-
-
+const RegisterForm = () => {
+     return(  
   
      <div>
      
@@ -22,7 +13,7 @@ const LoginForm = () => {
             <div className={styles.formwrap}>
                 <div className={styles.buttonwrap}>
                     <div id="btn"></div>
-                    <button type="button" className={styles.togglebtn} onClick="login">LOG IN</button>
+                    <button type="button" className={styles.togglebtn} onClick="Register">Register</button>
                   
                 </div>
                 <div className={styles.socialicons}>
@@ -30,29 +21,28 @@ const LoginForm = () => {
                     <img src="https://github.com/mdab4793/petwalk/blob/main/tw.png?raw=true" alt="twitter"/>
                     <img src="https://github.com/mdab4793/petwalk/blob/main/gl.png?raw=true" alt="google"/>
                 </div>
-                <div className={styles.LoginForm}>
-                <form   id="login" action="" className={styles.inputgroup}>
+                <div className={styles.RegisterForm}>
+                <form id="register" action="" className={styles.inputgroup}>
                     <input type="text" className={styles.inputfield} placeholder="User name or Email" required/>
+                    <input type="email" className={styles.inputfield} placeholder="Your Email" required/>
                     <input type="password" className={styles.inputfield} placeholder="Enter Password" required/>
-                    <input type="checkbox" className={styles.checkbox}/><span>Remember Password</span>
-                    <button  className={styles.submit}>Login</button>
+                    <input type="checkbox" className={styles.checkbox}/><span>Terms and conditions</span>
+                    <button className={styles.submit}>REGISTER</button>
                 </form>
                 </div>
-               
-            </div>
+                </div>
         </div>
        
-        <Header/>
-
                 
+        <Header/>
                 
          </div>  
                 
-                
+    
           
       
 
     )
 }
 
-export default LoginForm;
+export default RegisterForm;

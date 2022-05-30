@@ -1,0 +1,74 @@
+.mainsection{
+    padding: 6rem 0;
+    display: block;
+}
+
+.maincontent{
+    width: 1024px;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainimg{
+    background-size: 532px 682px;
+    width:632px;
+    height: 684px;
+    display:inline-block;
+}
+.mainmapimg{
+    background-size: 532px 682px;
+    width:632px;
+    height: 684px;
+}
+
+.maintitle{
+    font-size: 2.3rem;
+    line-height: 1.3;
+    margin-bottom: 2.4rem;
+    font-weight: 700;
+}
+
+.ptext{
+    font-size:1.6rem !important;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+   
+}
+.btns{
+    margin-top:3.2rem;
+    
+}
+
+.btnone{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 0.45rem 0.6rem;
+    display: inlne-block;
+    font-size: 1.5rem !important;
+    line-height: 1.47;
+    letter-spacing: -0.3px;
+    font-weight: bold;
+
+}
+
+
+
+.btntwo{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 0.45rem 0.6rem;
+    display:inlne-block;
+    margin-left: 1.6rem;
+    font-size: 1.5rem !important;
+    line-height: 1.47;
+    letter-spacing: -0.3;
+    font-weight: bold;
+}

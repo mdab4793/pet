@@ -1,18 +1,14 @@
 
 
-import Header from "./Layouts/Header";
-import Footer from "./Layouts/Footer";
 import React from "react";
 import { BrowserRouter, Routes, Route ,Link} from "react-router-dom";
 import Map from "./Map";
-import Appcalendar from "./Appcalendar";
-import MainHome from "./Home";
-import Error from "./Error";
-import Layout from "./Layouts/Layout";
 import Home from "./Home";
-import Login from "./LoginForm";
+import MyRoutes from "./components/MyRoutes";
 import LoginForm from "./LoginForm";
+import Main from "./Main";
 
+import RegisterForm from "./RegisterForm";
 function App() {
   return (
   
@@ -21,10 +17,16 @@ function App() {
             <BrowserRouter>
           
             <Routes>
+            <Route path="/Main" element={<Main/>} />
             <Route path="/" element={<Home/>} />
              <Route path="/map" element={<Map/>} />
-             <Route path="/LoginForm" element={<LoginForm/>} />
-             <Route path="/*" element={<Error />} />
+             <Route path="/MyRoutes" element={<MyRoutes />} />
+             <Route path="/LoginForm" element={<LoginForm />} />
+             <Route path="/RegisterForm" element={<RegisterForm />} />
+            {/*  <Route path="/RecommendedWalkingRoutes" element={<RecommendedWalkingRoutes />} />
+             <Route path="/MyPage" element={<MyPage />} />
+            
+             */} 
             </Routes>
             </BrowserRouter>
 

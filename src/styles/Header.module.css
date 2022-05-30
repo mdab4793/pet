@@ -9,17 +9,18 @@ header{
     position: fixed;
     width:100%;
     z-index: 9999;
-    top:0;
+    top: 0;
     left: 0;
+
     
 
 }
 
-h1{
+.hOne{
     color:black;
     line-height:center;
     float: left;
-   
+    text-align: center;
    
 }
 
@@ -39,7 +40,7 @@ h1{
     color:rgb(107, 49, 49);
     padding: 0 15px;
     display: block;
-   
+    text-align: center;
 }
 
 .wrapper{
